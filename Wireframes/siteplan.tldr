@@ -373,6 +373,286 @@
           }
         },
         "bindings": {}
+      },
+      "0f9fe5d1-c906-4a2f-01d3-7fc80e938f05": {
+        "id": "0f9fe5d1-c906-4a2f-01d3-7fc80e938f05",
+        "name": "Page 2",
+        "childIndex": 2,
+        "shapes": {
+          "0005b166-c78c-49cf-2d0f-992c23d6b0b8": {
+            "id": "0005b166-c78c-49cf-2d0f-992c23d6b0b8",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "0f9fe5d1-c906-4a2f-01d3-7fc80e938f05",
+            "childIndex": 1,
+            "point": [
+              565.52,
+              42.52
+            ],
+            "size": [
+              595.2,
+              417.28
+            ],
+            "rotation": 6.281160898591876,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "c59dc981-d82b-4ff0-1dd2-dc8a70d3986a": {
+            "id": "c59dc981-d82b-4ff0-1dd2-dc8a70d3986a",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "0f9fe5d1-c906-4a2f-01d3-7fc80e938f05",
+            "childIndex": 2,
+            "point": [
+              607.92,
+              47.51
+            ],
+            "rotation": 0,
+            "bend": -0.000024638992845039706,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0.55,
+                  405.86
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  0.28,
+                  202.93
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "8c283d16-e040-4af9-0834-5361b2dcdf67": {
+            "id": "8c283d16-e040-4af9-0834-5361b2dcdf67",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "0f9fe5d1-c906-4a2f-01d3-7fc80e938f05",
+            "childIndex": 3,
+            "point": [
+              577.91,
+              139.18
+            ],
+            "radius": [
+              10.135000000000048,
+              11.530000000000001
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "10734aee-7cdc-414f-226d-21b9339159b6": {
+            "id": "10734aee-7cdc-414f-226d-21b9339159b6",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "0f9fe5d1-c906-4a2f-01d3-7fc80e938f05",
+            "childIndex": 4,
+            "point": [
+              578.13,
+              171.98
+            ],
+            "radius": [
+              10.135000000000048,
+              11.530000000000001
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "0e7491aa-ee32-43f3-15b8-b688e84d7d4a": {
+            "id": "0e7491aa-ee32-43f3-15b8-b688e84d7d4a",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "0f9fe5d1-c906-4a2f-01d3-7fc80e938f05",
+            "childIndex": 5,
+            "point": [
+              578.87,
+              203.48
+            ],
+            "radius": [
+              10.135000000000048,
+              11.530000000000001
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "c2d5cfb6-9457-49bd-357a-790a0fe4711a": {
+            "id": "c2d5cfb6-9457-49bd-357a-790a0fe4711a",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "0f9fe5d1-c906-4a2f-01d3-7fc80e938f05",
+            "childIndex": 6,
+            "point": [
+              577.53,
+              236.49
+            ],
+            "radius": [
+              10.135000000000048,
+              11.530000000000001
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "ab04a2df-5507-4c18-2e77-3f657754f799": {
+            "id": "ab04a2df-5507-4c18-2e77-3f657754f799",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "0f9fe5d1-c906-4a2f-01d3-7fc80e938f05",
+            "childIndex": 7,
+            "point": [
+              578.33,
+              270.36
+            ],
+            "radius": [
+              10.650000000000034,
+              15.5
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "aeb49737-9824-4ee3-04e5-b349f101eb77": {
+            "id": "aeb49737-9824-4ee3-04e5-b349f101eb77",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "0f9fe5d1-c906-4a2f-01d3-7fc80e938f05",
+            "childIndex": 8,
+            "point": [
+              633.89,
+              131.61
+            ],
+            "size": [
+              261.32,
+              104.93
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "31c056ba-4b44-412a-361e-9b2132f3b917": {
+            "id": "31c056ba-4b44-412a-361e-9b2132f3b917",
+            "type": "text",
+            "name": "Text",
+            "parentId": "0f9fe5d1-c906-4a2f-01d3-7fc80e938f05",
+            "childIndex": 9,
+            "point": [
+              387.45,
+              124.34
+            ],
+            "rotation": 0,
+            "text": "About\n Contact \nResume\nLGithub\nLinked in",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.0071212121212127,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
       }
     },
     "pageStates": {
@@ -382,6 +662,17 @@
         "camera": {
           "point": [
             0,
+            0
+          ],
+          "zoom": 1
+        }
+      },
+      "0f9fe5d1-c906-4a2f-01d3-7fc80e938f05": {
+        "id": "0f9fe5d1-c906-4a2f-01d3-7fc80e938f05",
+        "selectedIds": [],
+        "camera": {
+          "point": [
+            -397,
             0
           ],
           "zoom": 1

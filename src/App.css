@@ -1,7 +1,5 @@
 .App {
-  text-align: center;
-  margin-left: 100px;
-  margin-right: 10px;
+  background-color: #282c34
 }
 
 .App-logo {
@@ -16,14 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -41,7 +32,7 @@
 .nav-bar{
   display: flex;
   position: fixed;
-  background-color: aliceblue;
+  background-color: #282c34;
   top: 0;
   left: 0;
   right: 0;
@@ -52,12 +43,12 @@
   border-radius: 75px;
   height: 50px;
   width: 50px;
-  margin-left: 100px;
+  margin-left: 35px;
+  margin-bottom: 10px;
 }
 .nav-header{
   font-size: medium;
   border-radius: 75px;
-  height: 50px;
   width: 500px;
   color: black;
   font-size: 18px;
@@ -104,12 +95,38 @@
   z-index: 100;
   padding: 48px 0 0;
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .social-icon-container{
-
+  padding-top: 150px; /* add some space between icons and top */
+  display: flex;
+  margin-right: 50px;
+  flex-direction: column;
+  justify-content: center;
 }
 .social-icon{
-  display: inline-block;
- vertical-align: top;
-  column-gap: 10px;
+  left: 25px;
+  margin: 5px;
+}
+.central-header{
+  display: flex;
+  position:fixed;
+  justify-content: flex-start;
+  align-items: left;
+  margin-left: 150px;
+  height: 100px;
+}
+.header-text {
+  margin-top: 200px;
+  color:aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 1px;
+}
+.big-name {
+  font-size: 100px;
+  
 }

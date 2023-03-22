@@ -7,7 +7,7 @@ import {Sidebar} from './component/Sidebar'
 function App() {
   return (
     <div className="App">
-    <Navbar/>
+    {/* <Navbar/> */}
     <Sidebar/>
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
