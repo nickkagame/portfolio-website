@@ -6,7 +6,7 @@ export const Header = () => {
     <h1 className = 'big-name'>
        Nick K Jones
     </h1>
-    <h3 className = 'subheading'>Full-Stack Software Developer  |  Coding Addict  |  Creative</h3>
+    <h3 className = 'subheading'>Full-Stack Software Developer  |  Coder  |  Creative</h3>
     </header>
 
     </section>)

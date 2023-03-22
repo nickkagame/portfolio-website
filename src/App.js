@@ -3,24 +3,24 @@ import './App.css';
 import { Header} from './component/Header';
 import {Navbar} from './component/Navbar'
 import {Sidebar} from './component/Sidebar'
+import { Routes, Route } from 'react-router-dom';
+import { About } from './component/About';
 
 function App() {
   return (
     <div className="App">
+    <header className="App-header">
     {/* <Navbar/> */}
     <Sidebar/>
-      <header className="App-header">
+    <Routes>
+    <Route path = "/" element={<Header/>}></Route>
+    <Route path = "/about-me" element={<About/>}></Route>
+    </Routes>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <Header/>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Projects
-        </a>
+        {/* <Header/> */}
+     
       </header>
+      
     </div>
   );
 }

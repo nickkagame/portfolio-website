@@ -130,3 +130,29 @@
   font-size: 100px;
   
 }
+
+.about-me-container{
+  display: flex;
+  position:fixed;
+  color:aliceblue;
+  justify-content: flex-start;
+  align-items: left;
+  margin-left: 150px;
+  height: 100px;
+}
+
+.about-me-header{
+  color:aliceblue;
+  text-align: left;
+  margin:10px;
+  margin-top: 200px;
+
+ 
+}
+.about-me-body{
+  color:aliceblue;
+  margin:10px;
+  margin-top: 250px;
+  width: 200px;
+ 
+}
