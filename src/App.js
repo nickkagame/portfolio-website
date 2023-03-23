@@ -5,6 +5,7 @@ import {Navbar} from './component/Navbar'
 import {Sidebar} from './component/Sidebar'
 import { Routes, Route } from 'react-router-dom';
 import { About } from './component/About/About';
+import {Projects} from "./component/Projects/Projects"
 
 function App() {
   return (
@@ -15,10 +16,8 @@ function App() {
     <Routes>
     <Route path = "/" element={<Header/>}></Route>
     <Route path = "/about-me" element={<About/>}></Route>
+    <Route path = "/my-work" element={<Projects/>}></Route>
     </Routes>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        {/* <Header/> */}
-     
       </header>
       
     </div>

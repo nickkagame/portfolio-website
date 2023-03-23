@@ -35,18 +35,13 @@ export const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm a very ambitious full-stack developer looking for a junior or mid-level role with the opportunity to work with the latest technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+          Software Development has invigorated my love of learning and problem solving.  Coding provides me rare states of focused creative flow, which fuels my passionate dedication to building bespoke websites, software, and apps for clients and personal creative work.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            
           </p>
         </div>
 
