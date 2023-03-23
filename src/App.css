@@ -133,26 +133,62 @@
 
 .about-me-container{
   display: flex;
-  position:fixed;
+  /* position:fixed; */
   color:aliceblue;
   justify-content: flex-start;
-  align-items: left;
+  /* align-items: left; */
   margin-left: 150px;
-  height: 100px;
+  flex-wrap: wrap;
+  height: 20px;
 }
-
 .about-me-header{
   color:aliceblue;
-  text-align: left;
-  margin:10px;
+  text-align: justify;
+  /* margin:10px; */
   margin-top: 200px;
+  margin-left: 100px;
+  width: 200px;
+  height: 10px
 
- 
 }
+
 .about-me-body{
   color:aliceblue;
-  margin:10px;
+  margin-left:-200px;
   margin-top: 250px;
+  width: 400px;
+  height: 0px;
+  text-align: justify;
+  line-height: 25px;
+}
+.projects-container{
+  padding-top: 10px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color:aliceblue;
+  margin-left: 150px;
+}
+
+.project-header{
+  color:aliceblue;
+  margin-left: 200px;
+  margin-top: 400px;
   width: 200px;
- 
+}
+
+.project1 {
+  margin-left: 5px;
+}
+
+.project-heading1 {
+  margin-left: -200px;
+  margin-top: 450px;
+  width: 200px;
+}
+.project-heading2 {
+  color:aliceblue;
+  margin: 100px;
+  margin-top: 450px;
+  width: 200px;
 }

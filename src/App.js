@@ -1,10 +1,10 @@
 import logo from './logo.svg';
-import './App.css';
+import './app.scss';
 import { Header} from './component/Header';
 import {Navbar} from './component/Navbar'
 import {Sidebar} from './component/Sidebar'
 import { Routes, Route } from 'react-router-dom';
-import { About } from './component/About';
+import { About } from './component/About/About';
 
 function App() {
   return (
