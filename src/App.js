@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './app.scss';
-import { Header} from './component/Header';
-import {Navbar} from './component/Navbar'
-import {Sidebar} from './component/Sidebar'
+import { Header} from './components/Header';
+import {Navbar} from './components/Navbar'
+import {Sidebar} from './components/Sidebar'
 import { Routes, Route } from 'react-router-dom';
-import { About } from './component/About/About';
-import {Projects} from "./component/Projects/Projects"
+import { About } from './components/About/About';
+import {Projects} from "./components/Projects/Projects"
 
 function App() {
   return (
