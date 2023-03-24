@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import '../component/About/About.scss'
 import {
-    faAngular,
     faCss3,
     faGitAlt,
     faHtml5,

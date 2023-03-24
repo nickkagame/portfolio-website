@@ -1,11 +1,10 @@
-import { SocialIcon } from "react-social-icons";
+
 import pic from "/Users/nickjones/Documents/Northcoders/post-graduation/portfolio-website/nick-jones/src/Assets/profilepic.jpg";
 import MyCV from "/Users/nickjones/Documents/Northcoders/post-graduation/portfolio-website/nick-jones/src/Assets/Nick Jones CV March 2023 (v2).pdf";
 import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
-  faHome,
   faFileArrowDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -32,6 +31,7 @@ export const Sidebar = () => {
               e.preventDefault();
               navigate("/about-me");
             }}
+            alt="nick"
           />
            <span className="hover-text"
            onClick={(e) => {

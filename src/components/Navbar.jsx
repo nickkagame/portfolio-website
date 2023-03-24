@@ -3,7 +3,6 @@
 import pic from "/Users/nickjones/Documents/Northcoders/post-graduation/portfolio-website/nick-jones/src/Assets/profilepic.jpg"
 export const Navbar = () => {
     return <section className="nav-bar">
-    <img className="nav-photo" src={pic}/>
     <header className="nav-header">
        Nick K Jones
     </header>
