@@ -33,6 +33,7 @@ export const Sidebar = () => {
               navigate("/about-me");
             }}
           />
+           <span className="hover-text">About</span>
         </Link>
         <section>
           <a
@@ -45,6 +46,7 @@ export const Sidebar = () => {
               color="#4d4d4e"
               className="mail-photo"
             />
+            <span className="hover-text">LinkedIn</span>
           </a>
           <a
             href="https://github.com/nickkagame"
@@ -54,15 +56,18 @@ export const Sidebar = () => {
             <FontAwesomeIcon
               icon={faGithub}
               color="#4d4d4e"
-              className="mail-photo"
+              className="github"
             />
+            <span className="hover-text">GitHub</span>
           </a>
           <a href={MyCV} download={"Nick Jones CV March 2023 (v2).pdf"}>
           <FontAwesomeIcon
             icon={faFileArrowDown}
             color="#4d4d4e"
             className="cv-logo"
+            
           />
+          <span className="hover-text">CV</span>
         </a>
           <Link to="mailto:nickkagamemusic@gmail.com">
           <FontAwesomeIcon
@@ -70,15 +75,8 @@ export const Sidebar = () => {
             color="#4d4d4e"
             className="mail-photo"
           />
+          <span className="hover-text">Contact</span>
         </Link>
-        
-          {/* <Link to="/">
-          <FontAwesomeIcon
-            icon={faHome}
-            color="#4d4d4e"
-            className="mail-photo"
-          />
-        </Link> */}
         </section>
       </section>
     </section>

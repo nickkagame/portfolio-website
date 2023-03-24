@@ -114,6 +114,7 @@ textarea{
       margin: 8px auto;
       width: 50px;
       height: auto;
+      padding-bottom: 112px;
     }
   }
 
@@ -122,29 +123,85 @@ textarea{
     background-color: aliceblue;
     width: 60px;
     height: 100%;
-    position: absolute;
+    // position: absolute;
     top: 0;
     z-index: 3;
-    min-height: 500px;
+    min-height: 300px;
     align-content: center;
   }
+
+ .social-icon-container a:hover .hover-text{
+    padding-top: 100px; 
+  }
+
+  .social-icon-container a {
+    position: relative;
+  }
+
+
+  .hover-text {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0px;
+  transform: translateY(-50%);
+  color: #070707;
+  
+  // white-space: nowrap;
+  }
+
+  a:hover .hover-text {
+    display: block;
+    position: absolute;
+    // height: fit-content;
+    align-content: center;
+    font-size: 11px;
+    letter-spacing: 2px;
+    width: 100%;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  
   .nav-photo{
     display: block;
     border-radius: 75px;
     width: 45px;
     height: auto;
     margin: 8px auto;
-
+    transition: all 0.3s ease-out;
   }
-  .mail-photo{
+
+  .social-icon-container a:hover .nav-photo {
+    opacity: 0;
+  }
+
+  .social-icon-container a:hover .mail-photo {
+    opacity: 0;
+  }
+
+  .social-icon-container a:hover .github {
+    opacity: 0;
+  }
+
+  .social-icon-container a:hover .cv-logo{
+    opacity: 0;
+  }
+
+  .mail-photo {
     display: block;
     padding: 8px 0;
     color: #4d4d4e;
     margin: 8px auto;
     width: 40px;
     height: auto;
-    
+    transition: all 0.3s ease-out;
   }
+
+
+
+
+
   .cv-logo{
     display: block;
     padding: 8px 0;
@@ -152,11 +209,97 @@ textarea{
     margin: 8px auto;
     width: 30px;
     height: auto;
+    transition: all 0.3s ease-out;
+    i {
+      transition: all 0.3s ease-out;
+    }
+
+    &:hover {
+      color: #ffd700;
+
+      svg {
+        opacity: 0;
+      }
+
+      &:after {
+        opacity: 1;
+      }
+    }
   }
 
-  .social-icon-container{
-    padding-top: 100px; 
+  .linked-in{
+    display: block;
+    padding: 8px 0;
+    color: #4d4d4e;
+    margin: 8px auto;
+    width: 40px;
+    height: auto;
+    i {
+      transition: all 0.3s ease-out;
+    }
+
+    &:hover {
+      color: #ffd700;
+
+      svg {
+        opacity: 0;
+      }
+
+      &:after {
+        opacity: 1;
+      }
+    }
   }
+
+  .github{
+    display: block;
+    padding: 8px 0;
+    color: #4d4d4e;
+    margin: 8px auto;
+    width: 40px;
+    height: auto;
+    transition: all 0.3s ease-out;
+    i {
+      transition: all 0.3s ease-out;
+    }
+
+    &:hover {
+      color: #ffd700;
+      
+
+      svg {
+        opacity: 0;
+      }
+
+      &:after {
+        opacity: 1;
+        
+      }
+    }
+    &:after {
+      content: '';
+      font-size: 9px;
+      letter-spacing: 2px;
+      position: absolute;
+      bottom: 0;
+      display: block;
+      width: 100%;
+      text-align: center;
+      opacity: 0;
+      -webkit-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
+     
+    }
+
+    &:first-child {
+      &:after {
+        content: 'HOME';
+      }
+    }
+  }
+
+
+  
 
   .central-header{
     display: flex;
