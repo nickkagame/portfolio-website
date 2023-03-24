@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import AnimatedLetters from "../AnimatedLetters";
 import "./Projects.scss";
-import nkNewsPic from "/Users/nickjones/Documents/Northcoders/post-graduation/portfolio-website/nick-jones/src/Assets/fonts+images/images/Screenshot 2023-03-23 at 13.54.42.png"
-import petsPic from '/Users/nickjones/Documents/Northcoders/post-graduation/portfolio-website/nick-jones/src/Assets/Simulator Screen Shot - iPhone 14 - 2023-03-23 at 16.36.49.png'
-import petsPic2 from '/Users/nickjones/Documents/Northcoders/post-graduation/portfolio-website/nick-jones/src/Assets/Simulator Screen Shot - iPhone 14 - 2023-03-23 at 16.36.25.png'
+import nkNewsPic from "../../Assets/fonts+images/images/Screenshot 2023-03-23 at 13.54.42.png"
+import petsPic from '../../Assets/Simulator Screen Shot - iPhone 14 - 2023-03-23 at 16.36.49.png'
+import petsPic2 from '../../Assets/Simulator Screen Shot - iPhone 14 - 2023-03-23 at 16.36.25.png'
 
 export const Projects = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
