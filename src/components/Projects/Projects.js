@@ -52,7 +52,7 @@ export const Projects = () => {
               API
             </button>
             </a>
-            <a href="main--cosmic-trifle-ac55a6.netlify.app"
+            <a href="https://main--cosmic-trifle-ac55a6.netlify.app"
             target="_blank"
             rel="noreferrer">
             <button className="btn">
