@@ -32,7 +32,7 @@ export const About = () => {
             I am an endlessly curious and dedicated full-stack developer looking to work on challenging, diverse and meaningful projects.
           </p>
           <p align="LEFT">
-          Software Development has invigorated my love of learning and problem solving.  Coding provides me rare states of focused creative flow, which fuels my passionate dedication to building bespoke websites, software, and apps for clients and personal creative work.
+          Software Development has invigorated my love of learning and problem solving.  Coding provides me rare states of focused creative flow, which fuels my passionate dedication to building bespoke websites, software, and apps for clients, and to my personal creative projects.
           </p>
           <Link to="/my-work" className="flat-button">
             My Work

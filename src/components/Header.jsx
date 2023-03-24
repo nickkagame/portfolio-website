@@ -19,7 +19,7 @@ export const Header = () => {
     <h1 className = 'big-name'>
        Nick K Jones
     </h1>
-    <h3 className = 'subheading'>Full-Stack Software Developer  |  Mobile-App Creator | Back-End Architect</h3>
+    <h3 className = 'subheading'>Full-Stack Software Developer  |  Mobile-App Creator | Curious Coder</h3>
     <Link to="/about-me" className="flat-button">
             About Me
           </Link>
