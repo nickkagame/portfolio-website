@@ -2,17 +2,19 @@
 
 import { useEffect, useState } from 'react'
 import {
-  faAngular,
   faCss3,
   faGitAlt,
   faHtml5,
   faJsSquare,
   faReact,
+  faNodeJs
 } from '@fortawesome/free-brands-svg-icons'
+
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters/index'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './About.scss'
+import { Link } from 'react-router-dom'
 
 export const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -35,20 +37,20 @@ export const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious full-stack developer looking for a junior or mid-level role with the opportunity to work with the latest technologies on challenging and diverse projects.
+            I am an endlessly curious and dedicated full-stack developer looking to work on challenging, diverse and meaningful projects.
           </p>
           <p align="LEFT">
           Software Development has invigorated my love of learning and problem solving.  Coding provides me rare states of focused creative flow, which fuels my passionate dedication to building bespoke websites, software, and apps for clients and personal creative work.
           </p>
-          <p>
-            
-          </p>
+          <Link to="/my-work" className="flat-button">
+            My Work
+          </Link>
         </div>
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              <FontAwesomeIcon icon={faNodeJs} color="#DD0031" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />

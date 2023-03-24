@@ -33,7 +33,11 @@ export const Sidebar = () => {
               navigate("/about-me");
             }}
           />
-           <span className="hover-text">About</span>
+           <span className="hover-text"
+           onClick={(e) => {
+              e.preventDefault();
+              navigate("/about-me");
+            }}>About</span>
         </Link>
         <section>
           <a

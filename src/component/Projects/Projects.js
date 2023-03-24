@@ -25,7 +25,7 @@ export const Projects = () => {
     <h1 className="page-title">
         <AnimatedLetters
             letterClass={letterClass}
-            strArray={"Portfolio".split("")}
+            strArray={"My Projects".split("")}
             idx={15}
         />
     </h1>

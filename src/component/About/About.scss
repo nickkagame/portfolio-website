@@ -6,13 +6,14 @@
   height: 0px;
   text-align: justify;
   line-height: 25px;
+  animation: fadeIn 1s 0.8s backwards;
 }
 
 .stage-cube-cont {
   width: 50%;
-  height: 100%;
-  top: 0;
-  padding-top: 18%;
+  height: 50%;
+  top: -75px;
+  padding-top: 15%;
   margin-left: 0;
   position: absolute;
   right: 0;
@@ -25,7 +26,7 @@
   animation-iteration-count: infinite;
   animation-duration: 12s;
   transform-style: preserve-3d;
-  transform-origin: 100px 100px 0;
+  transform-origin: 150px 150px 0;
   margin-left: calc(50% - 100px);
 
   div {
@@ -33,6 +34,7 @@
     width: 200px;
     height: 200px;
     border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.4);
     text-align: center;
     font-size: 100px;
     display: flex;

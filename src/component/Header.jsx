@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '../component/About/About.scss'
+// import '../component/About/About.scss'
 import {
     faAngular,
     faCss3,
@@ -8,6 +8,7 @@ import {
     faHtml5,
     faJsSquare,
     faReact,
+    faNode
   } from '@fortawesome/free-brands-svg-icons'
 
 export const Header = () => {
@@ -19,16 +20,16 @@ export const Header = () => {
     <h1 className = 'big-name'>
        Nick K Jones
     </h1>
-    <h3 className = 'subheading'>Full-Stack Software Developer  |  Coder  |  Creative</h3>
-    <Link to="/my-work" className="flat-button">
-            My Work
+    <h3 className = 'subheading'>Full-Stack Software Developer  |  Mobile-App Creator | Back-End Architect</h3>
+    <Link to="/about-me" className="flat-button">
+            About Me
           </Link>
     </header>
     </section>
     <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              <FontAwesomeIcon icon={faNode} color="#DD0031" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />

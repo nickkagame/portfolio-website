@@ -7,7 +7,7 @@
 
     h1.page-title {
         margin-left: 10px;
-        margin-top: 130px;
+        margin-top: 150px;
     }
 
 .block{
@@ -40,7 +40,7 @@
         // margin-left:auto;
         // margin-right:auto;
         width:960px;
-    
+        animation: fadeIn 1s 1.1s backwards;
         padding-left: 0px;
         border-width: 1px;
         border-style: solid;
