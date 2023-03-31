@@ -34,7 +34,7 @@ export const About = () => {
           <p align="LEFT">
           Software Development has invigorated my love of learning and problem solving.  Coding provides me rare states of focused creative flow, which fuels my passionate dedication to building bespoke websites, software, and apps for clients, and to my personal creative projects.
           </p>
-          <Link to="/my-work" className="flat-button">
+          <Link to="/my-work" className="flat-button-about">
             My Work
           </Link>
         </div>
