@@ -29,15 +29,15 @@ export const Sidebar = () => {
             src={pic}
             onClick={(e) => {
               e.preventDefault();
-              navigate("/about-me");
+              navigate("/my-work");
             }}
             alt="nick"
           />
            <span className="hover-text"
            onClick={(e) => {
               e.preventDefault();
-              navigate("/about-me");
-            }}>About</span>
+              navigate("/my-work");
+            }}>My Work</span>
         </Link>
         <section>
           <a

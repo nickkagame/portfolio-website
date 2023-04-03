@@ -75,12 +75,16 @@ export const Projects = () => {
           <div className="content">
             <p>Mobile application to help Pets owners find their lost animals. For iOS and Android developed within Agile team of 5
             <section className='button-container'>
-            <a href="https://www.youtube.com/watch?v=JG3xi7KOWRE">
+            <a href="https://www.youtube.com/watch?v=JG3xi7KOWRE"
+             target="_blank"
+            rel="noreferrer">
             <button className="btn">
               Demo Video
             </button>
             </a>
-            <a href="https://github.com/nickkagame/Pets-reunited/tree/main/spiking-react-firebase/react-native-firebase">
+            <a href="https://github.com/nickkagame/Pets-reunited/tree/main/spiking-react-firebase/react-native-firebase"
+             target="_blank"
+            rel="noreferrer">
             <button className="btn">
               Our Code
             </button>
