@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import AnimatedLetters from "../AnimatedLetters";
 import "./Projects.scss";
-import nkNewsPic from "../../Assets/fonts+images/images/Screenshot 2023-03-23 at 13.54.42.png"
-import petsPic from '../../Assets/Simulator Screen Shot - iPhone 14 - 2023-03-23 at 16.36.49.png'
-import petsPic2 from '../../Assets/Simulator Screen Shot - iPhone 14 - 2023-03-23 at 16.36.25.png'
+import nkNewsPic from "../../Assets/fonts+images/images/nknews.png"
+import petsPic from '../../Assets/pets-reunited-screenshot1.png'
+import petsPic2 from '../../Assets/pets-reunited-screenshot2.png'
 
 export const Projects = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -23,7 +23,7 @@ export const Projects = () => {
     <h1 className="page-title">
         <AnimatedLetters
             letterClass={letterClass}
-            strArray={"My Projects".split("")}
+            strArray={"My Work".split('')}
             idx={15}
         />
     </h1>
@@ -35,8 +35,9 @@ export const Projects = () => {
           alt="portfolio" />
           <section className="content">
             <p>
-                Full-stack development of a light news website, with full back-end architecture, API, and website.  
-            <section className='button-container'>
+                Full-stack development of a light news website, with full back-end architecture, API, and website. 
+                </p> 
+            <div className='button-container'>
             <a 
             href="https://github.com/nickkagame/nk-nc-news"
             target="_blank"
@@ -59,8 +60,8 @@ export const Projects = () => {
               Website
             </button>
             </a>
-            </section>
-            </p>
+            </div>
+            
           </section>
         </div>
         <section className="image-box" >
@@ -73,7 +74,8 @@ export const Projects = () => {
             src={petsPic2}
           />
           <div className="content">
-            <p>Mobile application to help Pets owners find their lost animals. For iOS and Android developed within Agile team of 5
+            <p>Mobile application to help owners find their lost pets. For iOS and Android, developed within Agile team of 5
+            </p>
             <section className='button-container'>
             <a href="https://www.youtube.com/watch?v=JG3xi7KOWRE"
              target="_blank"
@@ -90,7 +92,7 @@ export const Projects = () => {
             </button>
             </a>
             </section>
-            </p>
+            
           </div>
         </div>
         </section>

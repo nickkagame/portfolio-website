@@ -13,8 +13,21 @@ import AnimatedLetters from '../AnimatedLetters/index'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './About.scss'
 import { Link } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 
 export const About = () => {
+
+  const [letterClass, setLetterClass] = useState('text-animate')
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLetterClass("text-animate-hover");
+    }, 3000);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  });
 
  
   return (
@@ -23,7 +36,7 @@ export const About = () => {
         <div className="text-zone">
           <h1>
             <AnimatedLetters
-              letterClass='text-animate'
+              letterClass={letterClass}
               strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
               idx={15}
             />
