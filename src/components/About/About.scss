@@ -166,6 +166,10 @@
     white-space: nowrap;
     width: auto;
   /* … */
+  &:hover {
+    background: #ffd700;
+    color: #333;
+  }
 }
 }
 
