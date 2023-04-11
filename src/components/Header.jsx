@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { useEffect, useState } from "react";
-import AnimatedLetters from './AnimatedLetters/index'
+// import AnimatedLetters from './AnimatedLetters/index'
 // import '../component/About/About.scss'
 import {
     faCss3,
@@ -13,16 +12,16 @@ import {
   } from '@fortawesome/free-brands-svg-icons'
 
 export const Header = () => {
-  const [letterClass, setLetterClass] = useState("text-animate");
+  // const [letterClass, setLetterClass] = useState("text-animate");
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLetterClass("text-animate-hover");
-    }, 3000)
-    return () => {
-      clearTimeout(timer);
-    };
-  })
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setLetterClass("text-animate-hover");
+  //   }, 3000)
+  //   return () => {
+  //     clearTimeout(timer);
+  //   };
+  // })
 
     return (
     <section>
@@ -30,11 +29,12 @@ export const Header = () => {
     <header className="header-text">
     <h5 className="Hi">Hi, I'm</h5>
     <h1 className = 'big-name'>
-    <AnimatedLetters
+    {/* <AnimatedLetters
             letterClass={letterClass}
             strArray={"Nick  K.  Jones".split('')}
             idx={15}
-        />
+        /> */}
+        Nick K Jones
     </h1>
     <h3 className = 'subheading'>Full-Stack Software Developer  |  Mobile-App Creator | Curious Coder</h3>
     <Link to="/about-me" className="flat-button">
