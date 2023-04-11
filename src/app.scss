@@ -283,7 +283,6 @@ textarea{
       font-size: 40px;
       opacity: 100%;
       animation: fadeIn 1s 1.1s backwards;
-      padding-bottom: 100px;
       // word-wrap: break-word;
     }
     .subheading{
@@ -323,7 +322,7 @@ textarea{
     margin-left: 0px;
     height: 100px;
     margin-top: 200px;
-    padding-bottom: 10px;
+    // padding-bottom: 10px;
     animation: fadeIn 1s 0.7s backwards;
     width: 800px
   }
@@ -338,7 +337,6 @@ textarea{
   .big-name {
     font-size: 100px;
     opacity: 100%;
-    padding-bottom:-100px;
     animation: fadeIn 1s 1.1s backwards;
   }
   

@@ -1,4 +1,3 @@
-
 import pic from "../Assets/profilepic.jpg";
 import MyCV from "../Assets/Nick Jones CV March 2023 (v2).pdf";
 import { Link, useNavigate } from "react-router-dom";
